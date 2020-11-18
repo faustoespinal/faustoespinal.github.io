@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  efs-provisioner:
+  - apiVersion: v1
+    appVersion: v2.4.0
+    created: "2020-11-18T09:22:54.760622-06:00"
+    deprecated: true
+    description: DEPRECATED A Helm chart for the AWS EFS external storage provisioner
+    digest: 0fb8d3221674f13db0f76841dfa32ff04cf6f496a174932f162cc69fe0510b02
+    home: https://github.com/kubernetes-incubator/external-storage/tree/master/aws/efs
+    name: efs-provisioner
+    sources:
+    - https://github.com/kubernetes-incubator/external-storage/tree/master/aws/efs
+    - https://github.com/mirror/busybox
+    urls:
+    - https://faustoespinal.github.io/helm-charts/efs-provisioner-0.13.2.tgz
+    version: 0.13.2
+generated: "2020-11-18T09:22:54.759513-06:00"
